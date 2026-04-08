@@ -1,16 +1,116 @@
-# React + Vite
+# 📅 Wall Calendar UI – Frontend Engineering Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A polished, interactive wall calendar component built using **React (Vite) + Tailwind CSS**, inspired by physical wall calendars. This project focuses on delivering a clean UI, smooth UX, and responsive design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+👉 https://take-u-forward-one.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📌 Wall Calendar Aesthetic
+
+* Hero image dynamically changes based on the month
+* Clean layout inspired by real-world wall calendars
+* Strong visual hierarchy between image, calendar, and notes
+
+---
+
+### 📆 Date Range Selection
+
+* Click once → select **start date**
+* Click again → select **end date**
+* Visual feedback:
+
+  * Start & End → highlighted in black
+  * Range → subtle gray background
+* Hover preview for better UX
+
+---
+
+### 📝 Notes Integration
+
+* Attach notes to selected date range
+* Notes are persisted using **localStorage**
+* Clean, distraction-free writing interface
+
+---
+
+### 🎯 UX Enhancements
+
+* “Today” shortcut button
+* Hover animations & smooth transitions
+* Clear selection feedback
+* Responsive layout (desktop + mobile friendly)
+
+---
+
+### 📱 Fully Responsive
+
+* Desktop → side-by-side layout
+* Mobile → stacked layout
+* Maintains usability across all screen sizes
+
+---
+
+## 🛠 Tech Stack
+
+* **React (Vite)** – Fast frontend setup
+* **Tailwind CSS** – Utility-first styling
+* **JavaScript (ES6+)**
+* **LocalStorage API**
+
+---
+
+## 🧠 Design Approach
+
+The goal was to go beyond a basic calendar grid and create a **product-level UI component**:
+
+* Focused on **visual clarity and hierarchy**
+* Ensured **intuitive user interactions**
+* Used **subtle shadows, spacing, and typography** for a premium feel
+* Designed notes section as a **functional companion**, not just an input box
+
+---
+
+## ⚙️ How to Run Locally
+
+```bash
+git clone (https://github.com/Jashwanth-4028/TakeUForward.git)
+cd calendar-app
+npm install
+npm run dev
+```
+
+---
+
+## 📸 Screenshots
+
+(Add 1–2 screenshots here)
+
+---
+
+## 🔮 Future Improvements
+
+* Add event tagging (colors per event)
+* Drag-to-select date ranges
+* Dark mode support
+* Backend integration for persistent data
+
+---
+
+## 🙌 Conclusion
+
+This project demonstrates:
+
+* Strong understanding of **React component architecture**
+* Ability to build **interactive UI with clean UX**
+* Attention to **design details and usability**
+
+---
+
+⭐ If you found this interesting, feel free to connect!
